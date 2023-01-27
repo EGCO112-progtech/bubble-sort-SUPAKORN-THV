@@ -74,8 +74,8 @@ void bubbleSort(int a[], int n) {
         {
           swap(&a[j], &a[j+1]);
         }
+        display(a, n);
       }
-    display(a, n);
   }
 }
 
